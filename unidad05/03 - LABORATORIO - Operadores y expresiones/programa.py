@@ -1,4 +1,6 @@
-x =  0
-x = float(x)
-y = (3 * x ** 3) - (2 * x **2) + (3 * x) - 1 
+x = float(input("Ingresa el valor para x: "))
+
+y = 1. / (x + 1. / (x + 1. / (x + 1. / x)))
+
 print("y =", y)
+
