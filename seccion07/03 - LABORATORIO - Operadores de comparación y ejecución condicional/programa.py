@@ -1,8 +1,8 @@
-name = input("Introduce el nombre de la flor: ")
+name = input("Introduce el nombre de un lenguaje de programación: ")
 
-if name == "ESPATIFILIO":
-    print("Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos!")
-elif name == "espatifilo":
-    print("No, ¡quiero un gran ESPATIFILIO!")
+if name == "PYTHON":
+    print("Si, PYTHON es el mejor lenguaje de programación")
+elif name == "python":
+    print("No, me gusta más PYTHON")
 else:
-    print("¡ESPATIFILIO!, ¡No", name + "!")
+    print("¡PYTHON!, ¡No", name + "!")
