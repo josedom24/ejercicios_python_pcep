@@ -1,3 +1,4 @@
+pasos=0
 c0=int(input("Introduce un número:"))
 
 while c0 != 1:
@@ -5,5 +6,7 @@ while c0 != 1:
         c0 = c0 // 2
     else:
         c0 = 3 * c0 +1
+    pasos=pasos+1
     print(c0)
+print("Pasos:",pasos)
     
