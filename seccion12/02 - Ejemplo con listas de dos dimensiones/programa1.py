@@ -9,4 +9,15 @@ temperaturas = [[0.0 for h in range(24)] for d in range(31)]
 for dia in range(num_filas):
     for hora in range(num_columnas):
         temperaturas[dia][hora] = round(random.uniform(0, 40), 1)
-print(temperaturas)
+
+# Calculamos la temperatura media del mes al mediodía
+
+total = 0.0
+
+for temp_en_dia in temperaturas:
+    total += temp_en_dia[11]
+
+media = total / 31
+
+print("Temperatura promedio al mediodía:", media)
+
